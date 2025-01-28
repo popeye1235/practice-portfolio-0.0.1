@@ -36,7 +36,7 @@ const Experience = () => {
       <div className="container mx-auto text-center pt-8">
         <h2 className="text-4xl font-bold mb-6">My Experiences</h2>
         <p className="text-gray-700 dark:text-gray-400 mb-12">
-          Here's a glimpse of my professional journey and the skills I have gained.
+          Here&apos;s a glimpse of my professional journey and the skills I have gained.
         </p>
         <div className="space-y-8 mb-8">
           {experiences.map((experience, index) => (
