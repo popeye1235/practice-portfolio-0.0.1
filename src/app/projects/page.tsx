@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import GradientBackground from "../components/GradientBackground"
 
 interface Photo {

@@ -42,7 +42,7 @@ const Typewriter = () => {
     const timer = setTimeout(handleTyping, speed);
 
     return () => clearTimeout(timer); // Cleanup timer
-  }, [text, isDeleting, loop, speed]);
+  }, [text, isDeleting, loop, speed, dynamicTexts]);
 
   // Extract the dynamic text part for styling
   const dynamicText = text.replace(fixedText, "");

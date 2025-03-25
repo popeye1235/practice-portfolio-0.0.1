@@ -2,7 +2,7 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import './globals.css';
-import { Edu_AU_VIC_WA_NT_Hand, Protest_Revolution } from 'next/font/google';
+import { Edu_AU_VIC_WA_NT_Hand } from 'next/font/google';
 
 
 
